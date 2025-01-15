@@ -168,3 +168,42 @@ a {
   opacity: 0.5;
 }
 
+.diagnostics-overlay {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.info-box {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  font-family: monospace;
+  min-width: 200px;
+}
+
+.info-box h3 {
+  margin: 0 0 10px 0;
+  color: #00ff00;
+  font-size: 14px;
+}
+
+.info-box p {
+  margin: 5px 0;
+  font-size: 12px;
+}
+
+.info-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0;
+}
+
+.info-box li {
+  font-size: 12px;
+  color: #00ff00;
+  margin: 2px 0;
+}
+
