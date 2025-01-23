@@ -3,7 +3,7 @@ import { Canvas, useFrame, useThree } from '@react-three/fiber'
 import { useGLTF, MeshTransmissionMaterial, ContactShadows, Environment, PerspectiveCamera, OrbitControls } from '@react-three/drei'
 import { easing } from 'maath'
 import { useStore } from './store'
-import { Model } from './1987_buick_grand_national_regal_gnx'
+import { Model } from './gnx'
 
 export default function App() {
   const store = useStore()

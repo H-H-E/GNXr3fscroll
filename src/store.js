@@ -12,37 +12,39 @@ const store = proxy({
   },
   cameraPositions: [
     {
-      //Back View (Car on the right)
-      position: [7, 2.5, 10],
-      target: [0, 0, 0]
+      // Scene 1
+      position: [-5.76, 1.23, -6.71],
+      target: [-5.88, 0.76, 1.07]
     },
     {
-      //Back View (Car on the left, camera higher up)
-      position: [7, 5.5, 10],
-      target: [0, 0, 0]
+      // Scene 2
+      position: [-5.74, 1.3, -8],
+      target: [-5.88, 0.76, 1.07]
     },
     {
-      position: [7, 8.5, 10],
-      target: [0, -1.5, 0]
+      // Scene 3
+      position: [-5.87, 1.98, -10.62],
+      target: [-6.02, 1.09, 1.08]
     },
     {
-      position: [7, 11.5, -10],
-      target: [0, -1.5, 0]
+      // Scene 4
+      position: [-0.4, 7.77, -11.59],
+      target: [-0.07, 1.12, 0.38]
     },
     {
-      //Upper 
-      position: [7, 14.5, -10],
-      target: [0, -5.5, 0]
+      // Scene 5
+      position: [-2.7, 1.72, 6.99],
+      target: [-4.14, 0.46, 3.7]
     },
     {
-      //Front View (Car on the left)
-      position: [0, 2.5, -9],
-      target: [2, 1.5, 0]
+      // Scene 6
+      position: [-3.72, 1.49, -8.49],
+      target: [-5.42, 0.47, 0.87]
     },
     {
-      //Side View (Car on the bottom left)
-      position: [-3, 13.5, -19],
-      target: [2, 1.5, 0]
+      // Scene 7
+      position: [0.01, 0.85, 5.47],
+      target: [-4.87, 0.58, 0.42]
     }
   ]
 })
@@ -107,7 +109,7 @@ export const useStore = () => useProxy(store)
       target: [0, -6.2, 0]
     },
     {
-      // 12. Overhead Bird’s-Eye View
+      // 12. Overhead Bird's-Eye View
       position: [0, 12, 0],
       target: [0, 0, 0]
     },
